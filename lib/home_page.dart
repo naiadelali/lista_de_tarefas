@@ -1,4 +1,10 @@
 
+import 'package:flutter/material.dart';
+
+import 'components/list_task.dart';
+import 'components/search_input.dart';
+import 'models/task_model.dart';
+
 class Home extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
